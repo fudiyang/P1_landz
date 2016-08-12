@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">P1_landz</string>
+    <string name="splash_tip1">专注高端房源</string>
+    <string name="splash_tip01">全部豪宅  精准过滤无效信息专注高端10年\n
+        最理解您之所需</string>
+    <string name="splash_tip2">专业服务真实可信</string>
+    <string name="splash_tip02">75%二本学历+严苛认证  确保专业品质\n
+        全部信息内网对接 绝无虚假</string>
+    <string name="splash_tip3">高效便捷</string>
+    <string name="splash_tip03">联系一名顾问即可看遍京城豪宅\n
+        买房也可如此简单</string>
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_fragment_guide">FragmentGuideActivity</string>
+    <string name="title_activity_online_house">OnlineHouseActivity</string>
+    <string name="guwen">最熟悉的本房顾问(%s)</string>
+    <string name="huxing">主力户型(%s)</string>
+    <string name="houser_more">更多一手房源推荐(%s)</string>
+    <string name="more_tuijian">更多推荐(%s)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

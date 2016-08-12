@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="landz.fdy.com.p1_landz.landz.UI.welcome.seebuild_fragment.SeeBuild_Fragment_4">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_seebuild_guwen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:drawableRight="@mipmap/first_more"
+        android:textSize="@dimen/textsize_14"
+        android:text="@string/guwen" />
+    <ListView
+        android:id="@+id/lv_seebuild_guwen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>

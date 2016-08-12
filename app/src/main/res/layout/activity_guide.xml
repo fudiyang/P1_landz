@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="@dimen/splash_a"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context=".landz.UI.welcome.GuideActivity">
+
+<ImageView
+
+    android:id="@+id/splash_img"
+    android:layout_width="@dimen/splash_a"
+    android:layout_height="match_parent"
+    android:scaleType="centerCrop"
+    android:src="@mipmap/splash_a"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="@dimen/splash_a"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:id="@+id/ll_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/cicle_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/unchecked_page" />
+
+        <ImageView
+            android:id="@+id/cicle_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/unchecked_page" />
+
+        <ImageView
+            android:id="@+id/cicle_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:src="@mipmap/unchecked_page" />
+
+    </LinearLayout>
+</RelativeLayout>

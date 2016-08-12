@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="landz.fdy.com.p1_landz.landz.UI.welcome.seebuild_fragment.SeeBuild_Fragment_7">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tv_house_seemore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@mipmap/first_more"
+        android:textSize="@dimen/textsize_16"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="@string/more_tuijian"
+        />
+    <ListView
+        android:id="@+id/lv_house_seemore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="landz.fdy.com.p1_landz.landz.UI.welcome.fragment.DetailFragment_2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/img_titlePic"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/defult_onepic"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/simple_black"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="@dimen/textsize_18"
+        android:textColor="@color/black"
+        android:text="房源描述"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/simple_black"/>
+
+    <TextView
+        android:id="@+id/tv_house_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize_16"
+        android:textColor="@color/simple_black"
+        android:layout_margin="10dp"/>
+    <ImageView
+        android:id="@+id/img_down"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@mipmap/first_down"/>
+
+</LinearLayout>

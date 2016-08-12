@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="landz.fdy.com.p1_landz.landz.UI.welcome.seebuild_fragment.SeeBuildLookPhotoActivity">
+    <ImageView
+        android:id="@+id/seebuild_img_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp"
+        android:src="@mipmap/list_icon"/>
+
+    <LinearLayout
+        android:id="@+id/ll_seebuild_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <fragment
+            android:id="@+id/detail_seebuild_fragment1"
+            android:name="landz.fdy.com.p1_landz.landz.UI.welcome.seebuild_fragment.SeeBuild_Fragment_1"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </LinearLayout>
+    <ScrollView
+        android:id="@+id/scrollView_photo"
+        android:layout_below="@id/seebuild_img_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:id="@+id/ll_seebuild_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"/>
+    </ScrollView>
+    <LinearLayout
+        android:id="@+id/ll_seebuild_typeSrcoll"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true">
+        <Gallery
+            android:id="@+id/seebuild_gallery"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/seebuild_img_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp"
+        android:src="@mipmap/thum_close"
+        android:visibility="gone"/>
+
+</RelativeLayout>

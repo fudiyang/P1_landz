@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="landz.fdy.com.p1_landz.landz.UI.welcome.seebuild.MoreTuijianActivity">
+
+    <TextView
+        android:id="@+id/tv_morelist"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#871F78"
+        android:gravity="center"
+        android:textSize="@dimen/textsize_22"
+        android:textColor="@color/withe"
+        android:text="更多推荐"/>
+
+    <landz.fdy.com.p1_landz.landz.UI.welcome.View.RefreshListView
+        android:id="@+id/lv_morelist"
+        android:layout_below="@id/tv_morelist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

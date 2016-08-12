@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:paddingBottom="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/one_pic"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/im_two_onepic"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/defult_onepic"
+            android:scaleType="fitXY" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@mipmap/list_floating_boxes" >
+
+            <TextView
+                android:id="@+id/tv_two_onedetail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="昆泰嘉鱼中心"
+                android:textColor="@color/withe"
+                android:textSize="@dimen/textsize_16"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/tv_two_onedetail"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"
+                android:text="公寓"
+                android:layout_toRightOf="@id/tv_two_onedetail"
+                android:textColor="@color/withe" />
+
+            <TextView
+                android:id="@+id/tv_one_detail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/tv_two_onedetail"
+                android:layout_alignParentBottom="true"
+                android:layout_below="@+id/tv_two_onedetail"
+                android:layout_toLeftOf="@+id/tv_two_onemoney"
+                android:text="2室2厅"
+                android:gravity="bottom"
+                android:textColor="@color/withe" />
+
+            <TextView
+                android:id="@+id/tv_two_onemoney"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/tv_one_detail"
+                android:layout_marginRight="10dp"
+                android:text="0-0万"
+                android:textColor="@color/withe"
+                android:textSize="@dimen/textsize_16"
+                android:textStyle="bold" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="26dp"
+                android:src="@mipmap/newhouse_free" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</LinearLayout>

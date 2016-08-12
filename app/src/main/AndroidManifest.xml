@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="landz.fdy.com.p1_landz">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".landz.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".landz.UI.welcome.WelcomeActivity"
+            android:label="@string/title_activity_welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name=".landz.Myservice"
+            android:process=":remote" />
+
+        <activity
+            android:name=".landz.Main2Activity"
+            android:label="Main2Activity"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".landz.UI.welcome.GuideActivity"
+            android:label="@string/title_activity_guide" />
+        <activity android:name=".landz.MainActivity" />
+        <activity
+            android:name=".landz.UI.welcome.fragment.GuideFragment"
+            android:label="@string/title_activity_fragment_guide"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".landz.UI.welcome.OnlineHouseActivity"
+            android:label="@string/title_activity_online_house"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".landz.UI.welcome.onlinehouse.OnlineHouseActivity" />
+        <activity android:name=".landz.UI.welcome.onlinehouse.SelectMoreActivity" />
+        <activity
+            android:name=".landz.UI.welcome.Serch.SerchActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".landz.UI.welcome.onlinehouse.HouseOneDetailActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".landz.UI.welcome.onlinehouse.LookPhotoActivity" />
+        <activity android:name=".landz.UI.welcome.seebuild.SeeBuildActivity" />
+        <activity android:name=".landz.UI.welcome.seebuild.SeeBuildSelectMoreActivity" />
+        <activity android:name=".landz.UI.welcome.seebuild.SeeBuildMoreDetailActivity" />
+        <activity android:name=".landz.UI.welcome.seebuild_fragment.SeeBuildLookPhotoActivity" />
+        <activity android:name=".landz.UI.welcome.seebuild.SeeBuildGuwenActivity" />
+        <activity android:name=".landz.UI.welcome.seebuild.MoreTuijianActivity"></activity>
+    </application>
+
+</manifest>

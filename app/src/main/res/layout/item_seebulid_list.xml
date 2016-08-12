@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="110dp">
+
+    <LinearLayout
+        android:id="@+id/ll_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/img_main_show1"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/defult_twopic"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/main_show1_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_18"
+                android:textColor="@color/black"
+                android:text="龙湾别墅"/>
+            <RelativeLayout
+                android:id="@+id/re_layout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_textview1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/simple_black"
+                    android:textSize="@dimen/textsize_16"
+                    android:layout_marginTop="10dp"
+                    android:text="均价:"/>
+                <TextView
+                    android:id="@+id/tv_aviprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_textview1"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#FF0000"
+                    android:textSize="@dimen/textsize_16"
+                    android:layout_marginTop="10dp"
+                    android:text="4.91万/m"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/re_layout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+               <TextView
+                   android:id="@+id/tv_textview2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:textColor="@color/simple_black"
+                   android:textSize="@dimen/textsize_16"
+                   android:layout_marginTop="10dp"
+                   android:text="商圈:"/>
+
+                <TextView
+                    android:id="@+id/tv_shangquanId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/tv_textview2"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@color/simple_black"
+                    android:textSize="@dimen/textsize_16"
+                    android:layout_marginTop="10dp"
+                    android:text="中央别墅区"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="landz.fdy.com.p1_landz.landz.UI.welcome.onlinehouse.LookPhotoActivity">
+
+
+    <ImageView
+        android:id="@+id/img_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp"
+        android:src="@mipmap/list_icon"/>
+    <ImageView
+        android:id="@+id/img_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_margin="25dp"
+        android:src="@mipmap/thum_close"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/ll_fragment"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+         <fragment
+            android:id="@+id/detail_fragment1"
+            android:name="landz.fdy.com.p1_landz.landz.UI.welcome.fragment.DetailFragment_1"
+            android:layout_centerInParent="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"/>
+<LinearLayout
+    android:id="@+id/ll_typeSrcoll"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:layout_alignParentBottom="true">
+  <Gallery
+      android:id="@+id/gallery"
+      android:gravity="center"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      />
+
+</LinearLayout>
+</RelativeLayout>

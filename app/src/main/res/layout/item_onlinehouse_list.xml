@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="110dp" >
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/im_two_twopic"
+             android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/defult_twopic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tv_two_twocontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="香海园楼王四居,前后观景，南北通透"
+                android:textColor="#BB000000"
+                android:textSize="@dimen/textsize_14" />
+
+            <TextView
+                android:id="@+id/tv_two_twoName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:singleLine="true"
+                android:text="泛海国际香海园 朝阳公园"
+                android:textColor="#8B8970"
+                android:textSize="12sp" />
+<LinearLayout
+    android:id="@+id/ll_bottom_label"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_two_twoarea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:singleLine="true"
+                android:text="4室2厅 248m"
+                android:textColor="#8B8970"
+                android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_two_twomoney"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:text="1850万"
+            android:textColor="#FF0000"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+
+</LinearLayout>
+
+
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tv_detail_tese1"
+                android:background="@drawable/shape1"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:singleLine="true"
+                android:text="花园"
+                android:textColor="#EECD661D"
+                android:textSize="12sp"
+                android:visibility="gone"/>
+         <TextView
+             android:id="@+id/tv_detail_tese2"
+             android:background="@drawable/shape2"
+             android:padding="5dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="3dp"
+             android:layout_marginLeft="8dp"
+             android:singleLine="true"
+             android:text="花园"
+             android:textColor="#EECD661D"
+             android:textSize="12sp"
+             android:visibility="gone"/>
+         <TextView
+             android:id="@+id/tv_detail_tese3"
+             android:background="@drawable/shape3"
+             android:padding="5dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="8dp"
+             android:layout_marginTop="3dp"
+             android:singleLine="true"
+             android:text="花园"
+             android:textColor="#EECD661D"
+             android:textSize="12sp"
+             android:visibility="gone"/>
+                 </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

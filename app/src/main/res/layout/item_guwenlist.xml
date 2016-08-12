@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="100dp">
+
+    <ImageView
+        android:id="@+id/img_guwenlist_photo"
+        android:layout_width="60dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="6dp"
+        android:src="@mipmap/defult_head1"/>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_guwenlist_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_16"
+                android:text="yibo"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+
+                    android:id="@+id/im_guwenlist_sms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_toLeftOf="@+id/im_guwenlist_phone"
+                    android:layout_marginRight="20dp"
+                    android:src="@mipmap/sms_green"/>
+                <ImageView
+                    android:id="@+id/im_guwenlist_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="40dp"
+                    android:layout_marginTop="8dp"
+                    android:src="@mipmap/phone_green"/>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_guwenlist_congye"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:drawableRight="@mipmap/first_more"
+            android:layout_marginRight="10dp"
+            android:textSize="@dimen/textsize_16"
+            android:text="yibo"/>
+        <TextView
+            android:id="@+id/tv_guwenlist_kanfangcishu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_16"
+            android:text="yibo"/>
+
+    </LinearLayout>
+
+</LinearLayout>
